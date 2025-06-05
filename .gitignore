@@ -1,0 +1,90 @@
+[# === ROS 2 build system ===
+build/
+install/
+log/
+
+# === Colcon/ament/rosbuild artifacts ===
+*.log
+*.pyc
+*.pyo
+*.swp
+*.bak
+*.tmp
+*.old
+*.DS_Store
+
+# === Python ===
+__pycache__/
+*.egg-info/
+*.eggs/
+*.env
+.env
+.venv
+venv/
+ENV/
+env/
+pip-wheel-metadata/
+
+# === VSCode settings ===
+.vscode/
+.settings/
+.idea/
+
+# === CMake ===
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# === Simulation files ===
+*.world
+*.gazebo
+*.sdf
+*.urdf~
+*.dae~
+*.stl~
+*.mesh~
+
+# === Robot images or debug assets ===
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.gif
+
+*.key
+*.pem
+*.crt
+*.token
+*.secret
+*.env.local
+secrets/
+
+# === ROS 2 Workspace ===
+.colcon/
+install/
+log/
+build/
+
+# === OS-specific ===
+Thumbs.db
+ehthumbs.db
+Icon?
+desktop.ini
+
+# === Snap and systemd-related ===
+*.snap
+*.service
+*.target
+
+# === Misc ===
+*.db
+*.sqlite3
+*.lock
+*.zip
+*.tar.gz
+*.tar
+*.bak
+*.orig
+*.rej
+]
