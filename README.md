@@ -110,9 +110,5 @@ The project integrates concepts from optimization and search algorithms, using t
 - **No Markers in RViz**: Verify the topic with `ros2 topic list` and ensure the `Fixed Frame` is `map`.
 - **Build Errors**: Check `package.xml` for redundant dependencies and re-run `colcon build`.
 
-## Contributing
-- **Author**: Kawthar Elgueddari
-- Contributions are welcome! Please fork the repository, make changes, and submit a pull request.
+- **Author**: Kawthar El Gueddari
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
